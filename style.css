@@ -4,49 +4,132 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-/* clearfix 追加 */
+.a{
+	text-decoration: none;
+}
+
 .clearfix::after {
   content: "";
   display: block;
   clear: both;
 }
-.header
-{
-	width: 90%;
-	padding: 15px 0;
-	margin: 0 auto;
-}
-.main-visual
+header
 {
 	width: 100%;
-	height: 300px;
-}
-.main-visual-content
-{
-	width: 350px;
-	height: 300px;
-}
-.main
-{
-	width: 840px;
-	/* heigth消去　*/
-	/* 中央寄せ（余白が無いと出来ない）　*/
+	padding: 20px 0;
 	margin: 0 auto;
+	text-align: center;
 }
-.brog
+
+header .headline
 {
-	width: 600px;
-	height: 1400px;
-	float: left;
+	font-size: 32px;
 }
-.sidebar
+
+.nav-list
 {
-	width: 240px;
-	height: 1400px;
-	float: left;
+	text-align: center;
+	padding: 15px 0;
+	margin: 0 auto;
+	border-top: 1px solid #696969;
+	border-bottom: 1px solid #696969;
 }
-.footer
+.nav-list-item
+{
+	text-align: center;
+	display: inline-block;
+	margin: 0 20px;
+}
+
+.main{
+	width: 800px;
+	margin: 50px auto;
+	text-align: center;
+}
+
+.box1{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color: #e6ffe9;
+}
+.box2{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color: #cbffd3;
+}
+.box3{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color: #aeffbd;
+}
+.box4{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color: #93ffab;
+}
+.box5{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color: #f3ffd8;
+}
+.box6{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color: #edffbe;
+}
+.box7{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color: #e9ffa5;
+}
+.box8{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color: #e4ff8d;
+}
+.box9{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color: #d9e5ff;
+}
+.box10{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color: #bad3ff;
+}
+.box11{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color: #a4c6ff;
+}
+.box12{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color: #8eb8ff;
+}
+footer
 {
 	width: 100%;
 	height: 120px;
+	text-align: center;
+	padding: 50px 0;
+		background-color: #848282;
+}
+
+.footer-text
+{
+	color: #fff;
+}
 }
